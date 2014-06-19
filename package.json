@@ -1,16 +1,24 @@
 {
   "name": "node-address-format",
+  "version": "0.0.0",
   "description": "Outputs postal addresses in a variety of international formats",
   "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec ./tests/test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/arcreative/node-address-format"
   },
   "author": "Adam Robertson",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/arcreative/node-address-format/issues"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/arcreative/node-address-format",
   "devDependencies": {
     "mocha": "*"
   }
