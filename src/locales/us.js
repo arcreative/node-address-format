@@ -13,4 +13,5 @@ module.exports = function(address) {
     if (address.postalCode) line.push(address.postalCode);
     lines.push(line.join(' '));
   }
+  return lines;
 };

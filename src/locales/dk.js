@@ -5,8 +5,9 @@ module.exports = function(address) {
   if (address.address3) lines.push(address.address3);
   if (address.city || address.subdivision || address.postalCode) {
     var line = [];
-    if (address.city) line.push(address.city);
     if (address.postalCode) line.push(address.postalCode);
+    if (address.city) line.push(address.city);
     lines.push(line.join(' '));
   }
+  return lines;
 };
