@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+./node_modules/browserify/bin/cmd.js ./src/index.js -o ./dist/address-format.js
+./node_modules/uglify-js/bin/uglifyjs ./dist/address-format.js > ./dist/address-format.min.js
