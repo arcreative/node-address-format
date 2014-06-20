@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "mocha --reporter spec ./tests/test.js",
-    "browserify": "browserify src/index.js -o dist/index.js"
+    "build": "npm run browserify && npm run uglify",
+    "browserify": "./node_modules/browserify/bin/cmd.js src/index.js -o dist/index.js",
+    "uglify": "./node_modules/uglify-js/bin/uglifyjs dist/index.js > dist/index.min.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/arcreative/node-address-format",
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "uglify-js": "*",
+    "browserify": "^4.1.11"
   }
 }

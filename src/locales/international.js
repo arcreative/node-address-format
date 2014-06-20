@@ -1,13 +1,13 @@
-module.exports = function(address) {
+module.exports = function(a) {
   var lines = [];
-  if (address.address) lines.push(address.address);
-  if (address.address2) lines.push(address.address2);
-  if (address.address3) lines.push(address.address3);
-  if (address.city || address.subdivision || address.postalCode) {
+  if (a.address) lines.push(a.address);
+  if (a.address2) lines.push(a.address2);
+  if (a.address3) lines.push(a.address3);
+  if (a.city || a.subdivision || a.postalCode) {
     var line = [];
-    if (address.city) line.push(address.city);
-    if (address.subdivision) line.push(address.subdivision);
-    if (address.postalCode) line.push(address.postalCode);
+    if (a.city) line.push(a.city);
+    if (a.subdivision) line.push(a.subdivision);
+    if (a.postalCode) line.push(a.postalCode);
     lines.push(line.join(' '));
   }
   return lines;
