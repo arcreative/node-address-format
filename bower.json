@@ -1,0 +1,21 @@
+{
+  "name": "node-address-format",
+  "version": "0.0.0",
+  "homepage": "https://github.com/arcreative/node-address-format",
+  "authors": [
+    "Adam Robertson <adam@arcreative.net>"
+  ],
+  "description": "Outputs postal addresses in a variety of international formats",
+  "main": "dist/address-format.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
