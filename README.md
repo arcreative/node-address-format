@@ -48,3 +48,7 @@ This will `browserify` to `dist/address-format.js` and uglify to `dist/address-f
 #### Contributions
 
 Gladly accepting contributions, hopefully in the form of additional countries.  Regardless of current tests being a bit naive, please include tests for added countries to ensure the output is as expected.
+
+#### Other implementations
+
+* PHP - [arcreative/php-address-format](https://github.com/arcreative/php-address-format)
