@@ -1,5 +1,5 @@
 {
-  "name": "node-address-format",
+  "name": "address-format",
   "version": "0.0.2",
   "description": "Outputs postal addresses in a variety of international formats",
   "main": "src/index.js",
