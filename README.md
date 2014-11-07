@@ -32,7 +32,9 @@ No fields are required to call the formatter, but the only property that will in
 
 #### Use in Node.js
 
-No additional work necessary.  This package is not currently published to npm, but will be very soon.
+```sh
+npm install node-address --save
+```
 
 #### Building for use in browser
 
